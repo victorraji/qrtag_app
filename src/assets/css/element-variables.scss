@@ -1,0 +1,71 @@
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+For example, to overwrite the theme color:
+*/
+$--color-primary:#702459;
+
+.circular{
+    display: initial;
+}
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+.el-picker-panel__body-wrapper {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.el-table th > .cell {
+  color: #25282B;
+  
+}
+.el-tabs__active-bar{
+  height:4px
+}
+.el-dialog__body {
+  padding: 0px 0px ;
+}
+.el-table{
+  font-weight: 600;
+}
+.el-dialog__header {
+  padding: 0px;
+  padding-bottom: 0px;
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td{
+  background: #FDFAFC;
+}
+.el-dropdown-link {
+  cursor: pointer;
+  color: $--color-primary;
+}
+.is-left {
+  font-weight: 700;
+  color:#25282B;
+  margin-bottom: 5px;
+}
+.el-form-item__label{
+  color:#25282B;
+}
+.el-steps--horizontal{
+  width:50%
+
+}
+.transparent-text-area{
+  border:none;
+  outline: none;
+}
+::-webkit-scrollbar {
+  width: 15px !important;
+}

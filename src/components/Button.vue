@@ -2,7 +2,7 @@
   <div>
     <div v-if="primary">
       <button
-        class="bg-green-200 text-xs text-white font-semibold w-full h-10 px-6 rounded-lg"
+        class="bg-pink-900 text-xs text-white font-semibold w-full h-10 px-6 rounded-lg"
         @click.prevent="action"
       >
         <slot></slot>
@@ -22,7 +22,7 @@
 <script>
 // A component for buttons in the app
 export default {
-  name: "emr-button",
+  name: "qr-button",
   props: {
     action: Function,
     primary: { Boolean, default: true }
