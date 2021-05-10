@@ -157,7 +157,6 @@ export default {
         });
 
         this.email = "";
-        console.log(this.BarcodesList);
       } else {
         this.$notify.error({
           title: "Reached Limit!",
